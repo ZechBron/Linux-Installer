@@ -4,6 +4,7 @@ echo -e "    / /   (_)___  __  ___  __   /  _/___  _____/ /_____ _/ / /__  _____
 echo -e "   / /   / / __ \/ / / / |/_/   / // __ \/ ___/ __/ __ '/ / / _ \/ ___/ "
 echo -e "  / /___/ / / / / /_/ />  <   _/ // / / (__  ) /_/ /_/ / / /  __/ /    "
 echo -e " /_____/_/_/ /_/\__,_/_/|_|  /___/_/ /_/____/\__/\__,_/_/_/\___/_/     \e[0m"
+echo "                    First Draft - VERSION 0.1"
 echo -e "\e[91mCredits To:\e[0m\e[92m AnLinux\e[0m"
 echo -e "\e[91mCoded By:\e[0m\e[92m zeCh\e[0m"
 echo -e "\e[34m\"If you are too lazy to type a single command,"
