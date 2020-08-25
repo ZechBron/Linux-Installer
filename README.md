@@ -6,6 +6,8 @@ You can install real linux distribution or linux distro in Termux.
 ## Installation:
 > pkg install git -y
 
+> git clone https://github.com/ZechBron/Linux-Installer
+
 > cd Linux-Installer
 
 > chmod +x linux-installer.sh
@@ -16,3 +18,16 @@ You can install real linux distribution or linux distro in Termux.
 __Or__
 
 > ./linux-installer.sh
+
+## To Start just type:
+> ./start-name_of_distro.sh
+
+Example:
+
+> ./start-ubuntu.sh
+
+> ./start-arch.sh
+
+> ./start-debian.sh
+
+etc.. and etc...
