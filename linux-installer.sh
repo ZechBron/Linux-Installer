@@ -4,7 +4,7 @@ echo -e "    / /   (_)___  __  ___  __   /  _/___  _____/ /_____ _/ / /__  _____
 echo -e "   / /   / / __ \/ / / / |/_/   / // __ \/ ___/ __/ __ '/ / / _ \/ ___/ "
 echo -e "  / /___/ / / / / /_/ />  <   _/ // / / (__  ) /_/ /_/ / / /  __/ /    "
 echo -e " /_____/_/_/ /_/\__,_/_/|_|  /___/_/ /_/____/\__/\__,_/_/_/\___/_/     \e[0m"
-echo "                    First Draft - VERSION 0.1"
+echo "                    Second Draft - Version 0.2"
 echo -e "\e[91mCredits To:\e[0m\e[92m AnLinux\e[0m"
 echo -e "\e[91mCoded By:\e[0m\e[92m zeCh\e[0m"
 echo -e "\e[34m\"If you are too lazy to type a single command,"
@@ -29,15 +29,15 @@ echo -e "\e[31m[\e[0m\e[32mZ\e[0m\e[31m]\e[0m \e[32mPlease Choose:\e[0m \e[34m"
 read zch
 echo -e "\e[0m"
 if [ $zch = 1 ]; then
- pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
+ hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
  ./start-ubuntu.sh
 
 elif [ $zch = 2 ]; then
- pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Debian/debian.sh && bash debian.sh
+ hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Debian/debian.sh && bash debian.sh
  ./start-debian.sh
 
 elif [ $zch = 3 ]; then
- pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
+ hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh
  ./start-kali.sh
 
 # Kali net hunter need 5GB space
@@ -46,7 +46,7 @@ elif [ $zch = 4 ]; then
  read ChB
 
  if [ "$ChB" = "y" ]; then
-  pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Nethunter/nethunter.sh && bash nethunter.sh
+  hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Nethunter/nethunter.sh && bash nethunter.sh
   ./start-nethunter.sh
  elif [ "$ChB" = "n" ]; then
   exit
@@ -55,23 +55,23 @@ elif [ $zch = 4 ]; then
  fi
 
 elif [ $zch = 5 ]; then
- pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/BackBox/backbox.sh && bash backbox.sh
+ hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/BackBox/backbox.sh && bash backbox.sh
  ./start-backbox.sh
 
 elif [ $zch = 6 ]; then
- pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Fedora/fedora.sh && bash fedora.sh
+ hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Fedora/fedora.sh && bash fedora.sh
  ./start-fedora.sh
 
 elif [ $zch = 7 ]; then
- pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/CentOS/centos.sh && bash centos.sh
+ hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/CentOS/centos.sh && bash centos.sh
  ./start-centos.sh
 
 elif [ $zch = 8 ]; then
- pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/openSUSE/Leap/opensuse-leap.sh && bash opensuse-leap.sh
+ hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/openSUSE/Leap/opensuse-leap.sh && bash opensuse-leap.sh
  ./start-leap.sh
 
 elif [ $zch = 9 ]; then
- pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/openSUSE/Tumbleweed/opensuse-tumbleweed.sh && bash opensuse-tumbleweed.sh
+ hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/openSUSE/Tumbleweed/opensuse-tumbleweed.sh && bash opensuse-tumbleweed.sh
  ./start-tumbleweed.sh
 
 # Needed 2GB Space
@@ -80,7 +80,7 @@ elif [ $zch = 10 ]; then
  read ChB
 
  if [ "$ChB" = "y" ]; then
-  pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Arch/armhf/arch.sh && bash arch.sh
+  hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Arch/armhf/arch.sh && bash arch.sh
   ./start-arch.sh
   ./additional.sh
  elif [ "$ChB" = "n" ]; then
@@ -102,7 +102,7 @@ elif [ $zch = 11 ]; then
   read ChB
 
   if [ "$ChB" = "y" ]; then
-   pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Arch/armhf/arch.sh && bash arch.sh
+   hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Arch/armhf/arch.sh && bash arch.sh
    ./start-arch.sh
    ./additional.sh
    pacman-key --init && pacman-key --populate archlinuxarm && pacman -Sy --noconfirm curl && curl -O https://blackarch.org/strap.sh && chmod +x strap.sh && ./strap.sh
@@ -114,7 +114,7 @@ elif [ $zch = 11 ]; then
  fi
 
 elif [ $zch = 12 ]; then
- pkg install wget openssl-tool proot tar -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Alpine/alpine.sh && bash alpine.sh
+ hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Alpine/alpine.sh && bash alpine.sh
  ./start-alpine.sh
 
 else
