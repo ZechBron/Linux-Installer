@@ -1,4 +1,4 @@
-# Linux Installer v0.2
+# Linux Installer v0.3
 You can install real linux distribution or linux distro in Termux.
 
 ![Linux Installer By AnLinux coded-by-zech](https://github.com/ZechBron/Linux-Installer/blob/linux-installer-images/Linux%20Installer%20By%20AnLinux%20coded-by-zech.png)
@@ -44,3 +44,11 @@ etc.. and etc...
 __Or__
 
 > ./update.sh
+
+
+### To Uninstall:
+> bash uninstaller.sh
+
+__Or__
+
+> ./uninstaller.sh
