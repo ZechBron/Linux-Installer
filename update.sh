@@ -17,8 +17,8 @@ if [ "$zCh" = "$check" ]; then
 
       git clone https://github.com/ZechBron/Linux-Installer
       cd Linux-Installer
-      chmod +x linux-installer.sh
       chmod +x setup.sh
+      ./setup.sh
    elif [ "$ChB" = "n" ]; then
       exit
    else
