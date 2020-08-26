@@ -37,3 +37,10 @@ Example:
 > ./start-debian.sh
 
 etc.. and etc...
+
+### To Update:
+> bash update.sh
+
+__Or__
+
+> ./update.sh
