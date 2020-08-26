@@ -10,11 +10,13 @@ You can install real linux distribution or linux distro in Termux.
 
 > cd Linux-Installer
 
-> chmod +x linux-installer.sh
-
 > chmod +x setup.sh
 
-> chmod +x update.sh
+> bash setup.sh
+
+__OR__
+
+> ./setup.sh
 
 ## Two Ways To Run:
 > bash linux-installer.sh
