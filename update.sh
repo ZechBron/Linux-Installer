@@ -5,7 +5,7 @@ zCh="Version 0.3"
 check=$(curl https://raw.githubusercontent.com/ZechBron/Linux-Installer/linux-installer-images/updates)
 
 if [ "$zCh" = "$check" ]; then
-   echo -e "\e[92mThe version of this tool is Version 0.1. However, there's Version 0.3 available."
+   echo -e "\e[92mThe version of this tool is Version 0.3. However, there's Version 0.3 available."
    echo -e "Do you want to update it (y/n)? \e[0m"
    read ChB
    
