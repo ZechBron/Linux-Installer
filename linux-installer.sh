@@ -6,7 +6,7 @@ echo -e "    / /   (_)___  __  ___  __   /  _/___  _____/ /_____ _/ / /__  _____
 echo -e "   / /   / / __ \/ / / / |/_/   / // __ \/ ___/ __/ __ '/ / / _ \/ ___/ "
 echo -e "  / /___/ / / / / /_/ />  <   _/ // / / (__  ) /_/ /_/ / / /  __/ /    "
 echo -e " /_____/_/_/ /_/\__,_/_/|_|  /___/_/ /_/____/\__/\__,_/_/_/\___/_/     \e[0m"
-echo "                    Version 0.3"
+echo "                    Version 0.4"
 echo -e "\e[91mCredits To:\e[0m\e[92m AnLinux\e[0m"
 echo -e "\e[91mCoded By:\e[0m\e[92m zeCh\e[0m"
 echo -e "\e[34m\"If you are too lazy to type a single command,"
@@ -26,7 +26,8 @@ echo -e " 8. openSUSE Leap"
 echo -e " 9. openSUSE Tumbleweed"
 echo -e " 10. Arch Linux"
 echo -e " 11. BlackArch Linux"
-echo -e " 12. Alpine\e[34m"
+echo -e " 12. Alpine"
+echo -e " 13. Parrot OS\e[34m"
 echo -e "\e[31m[\e[0m\e[32mZ\e[0m\e[31m]\e[0m \e[32mPlease Choose:\e[0m \e[34m"
 read zch
 echo -e "\e[0m"
@@ -119,8 +120,18 @@ elif [ $zch = 12 ]; then
  hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Alpine/alpine.sh && bash alpine.sh
  ./start-alpine.sh
 
+# Parrot
+elif [ $zch = 13 ]; then
+hash -r && wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Parrot/parrot.sh && bash parrot.sh
+./start-parrot.sh
+
+
 else
  echo -e "\e[91mWrong input. Please try again.\[e0m"
  clear
  ./linux-installer.sh
 fi
+
+
+
+
