@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-
+cd $HOME
 
 echo -e "\e[92mWhat do you want to uninstall?\e[0m"
 echo -e "\e[34m 1. Ubuntu"
